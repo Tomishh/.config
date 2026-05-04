@@ -127,11 +127,20 @@ return {
    enabled = true,
    sources = {
     explorer = {
-     auto_close = true,
+     auto_close = false,
      hidden = true,
+     git_status = true,
+     git_status_open = false,
+     git_untracked = true,
+     layout = { preset = "sidebar", preview = true },
+     formatters = {
+      file = { filename_only = true },
+      severity = { pos = "right" },
+     },
     },
     files = {
      hidden = true,
+     ignored = true,
     },
    },
    matcher = {

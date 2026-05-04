@@ -1,0 +1,11 @@
+return {
+ {
+  "2giosangmitom/nightfall.nvim",
+ },
+ {
+  "LazyVim/LazyVim",
+  opts = {
+   colorscheme = "nightfall",
+  },
+ },
+}
