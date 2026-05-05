@@ -1,0 +1,11 @@
+return {
+ {
+  "uloco/bluloco.nvim",
+ },
+ {
+  "LazyVim/LazyVim",
+  opts = {
+   colorscheme = "bluloco",
+  },
+ },
+}
